@@ -2,18 +2,11 @@
     "name": "inchoo/reindexrequired",
     "description": "",
     "require": {
-        "php": "~7.0.0",
-        
+        "php": "~7.0.0|~7.1.0",
         "magento/magento-composer-installer": "*"
     },
-    "suggest": {
-
-    },
     "type": "magento2-module",
-    "version": "0.1.0",
-    "license": [
-
-    ],
+    "version": "0.1.1",
     "autoload": {
         "files": [
             "registration.php"
@@ -21,13 +14,5 @@
         "psr-4": {
             "Inchoo\\ReindexRequired\\": ""
         }
-    },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Inchoo/ReindexRequired"
-            ]
-        ]
     }
 }
